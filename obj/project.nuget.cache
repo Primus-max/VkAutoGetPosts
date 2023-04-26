@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "vLxuKKjSpPkXlXCf+rbIYHAAUuAIkmSLIU8MgCquh/i4U1fxP31IPr76ufSpc9xQMeUFyJ1eT+3c9c2+ol5qcA==",
+  "success": true,
+  "projectFilePath": "Z:\\Programming\\ProjectC#\\ComPoster\\GetPoster\\GetPoster.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SKTV-1\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\SKTV-1\\.nuget\\packages\\tdlib\\1.8.12\\tdlib.1.8.12.nupkg.sha512",
+    "C:\\Users\\SKTV-1\\.nuget\\packages\\tdlib.api\\1.8.12\\tdlib.api.1.8.12.nupkg.sha512",
+    "C:\\Users\\SKTV-1\\.nuget\\packages\\tdlib.native\\1.8.12\\tdlib.native.1.8.12.nupkg.sha512"
+  ],
+  "logs": []
+}

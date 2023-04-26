@@ -1,0 +1,282 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {}
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {}
+        }
+      },
+      "tdlib.native/1.8.12": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libtdactor.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtdapi.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtdclient.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtdcore.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtddb.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtdjson.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtdjson.so.1.8.12": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtdjson_private.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtdjson_static.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtdnet.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtdsqlite.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtdutils.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libtdjson.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/libcrypto-3-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libssl-3-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tdjson.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "TDLib/1.8.12": {
+      "sha512": "/fRpb8/FhOCcCOAab4GkYchjiw7UeYqFs0Foc4ZZWm5nb5B/Es4g1BAYlYo2sdeeFnau+krQgACcWnNG1OeLdQ==",
+      "type": "package",
+      "path": "tdlib/1.8.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TdLib.dll",
+        "lib/netstandard2.0/TdLib.xml",
+        "tdlib.1.8.12.nupkg.sha512",
+        "tdlib.nuspec"
+      ]
+    },
+    "TDLib.Api/1.8.12": {
+      "sha512": "sNA6YpKOxB8j/TgPpkj8ywdTg1ko+VIFvTDHmKeIYz3z1T5smxWOkl/NCA3mifj5TVm8JQnTT3jfXhqmMS75pA==",
+      "type": "package",
+      "path": "tdlib.api/1.8.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TdLib.Api.dll",
+        "lib/netstandard2.0/TdLib.Api.xml",
+        "tdlib.api.1.8.12.nupkg.sha512",
+        "tdlib.api.nuspec"
+      ]
+    },
+    "tdlib.native/1.8.12": {
+      "sha512": "6UjmIVZfj5LvQ8qQ3UvgL+rhyD4kdn87kN+bIb6N6VB6bhKB49Tj3ycPCQF/XYNtobdXKZJV0fCn+ac/rKv7/Q==",
+      "type": "package",
+      "path": "tdlib.native/1.8.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE_1_0.txt",
+        "runtimes/linux-x64/native/libtdactor.a",
+        "runtimes/linux-x64/native/libtdapi.a",
+        "runtimes/linux-x64/native/libtdclient.a",
+        "runtimes/linux-x64/native/libtdcore.a",
+        "runtimes/linux-x64/native/libtddb.a",
+        "runtimes/linux-x64/native/libtdjson.so",
+        "runtimes/linux-x64/native/libtdjson.so.1.8.12",
+        "runtimes/linux-x64/native/libtdjson_private.a",
+        "runtimes/linux-x64/native/libtdjson_static.a",
+        "runtimes/linux-x64/native/libtdnet.a",
+        "runtimes/linux-x64/native/libtdsqlite.a",
+        "runtimes/linux-x64/native/libtdutils.a",
+        "runtimes/osx-x64/native/libtdjson.dylib",
+        "runtimes/win-x64/native/libcrypto-3-x64.dll",
+        "runtimes/win-x64/native/libssl-3-x64.dll",
+        "runtimes/win-x64/native/tdjson.dll",
+        "runtimes/win-x64/native/zlib1.dll",
+        "tdlib.native.1.8.12.nupkg.sha512",
+        "tdlib.native.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "TDLib >= 1.8.12",
+      "tdlib.native >= 1.8.12"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\SKTV-1\\.nuget\\packages\\": {},
+    "Z:\\Programs\\VS\\Shared\\NuGetPackages": {},
+    "Z:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "Z:\\Programming\\ProjectC#\\ComPoster\\GetPoster\\GetPoster.csproj",
+      "projectName": "GetPoster",
+      "projectPath": "Z:\\Programming\\ProjectC#\\ComPoster\\GetPoster\\GetPoster.csproj",
+      "packagesPath": "C:\\Users\\SKTV-1\\.nuget\\packages\\",
+      "outputPath": "Z:\\Programming\\ProjectC#\\ComPoster\\GetPoster\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "Z:\\Programs\\VS\\Shared\\NuGetPackages",
+        "Z:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\SKTV-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "TDLib": {
+            "target": "Package",
+            "version": "[1.8.12, )"
+          },
+          "tdlib.native": {
+            "target": "Package",
+            "version": "[1.8.12, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

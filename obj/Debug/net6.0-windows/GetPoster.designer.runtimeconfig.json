@@ -1,0 +1,24 @@
+{
+  "runtimeOptions": {
+    "tfm": "net6.0",
+    "frameworks": [
+      {
+        "name": "Microsoft.NETCore.App",
+        "version": "6.0.0"
+      },
+      {
+        "name": "Microsoft.WindowsDesktop.App",
+        "version": "6.0.0"
+      }
+    ],
+    "additionalProbingPaths": [
+      "C:\\Users\\SKTV-1\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\SKTV-1\\.nuget\\packages",
+      "Z:\\Programs\\VS\\Shared\\NuGetPackages",
+      "Z:\\Microsoft\\Xamarin\\NuGet"
+    ],
+    "configProperties": {
+      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
+    }
+  }
+}

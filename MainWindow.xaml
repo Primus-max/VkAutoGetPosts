@@ -1,0 +1,73 @@
+﻿<Window x:Class="GetPoster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GetPoster"
+        mc:Ignorable="d"
+        Title="Получение контента с ТГ" Height="400" Width="400" Loaded="Win_Loaded">
+    <Grid>
+        <Border Padding="10">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Top"
+                            Margin="0 5 0 10">
+                    <TextBlock
+                        Margin="0 0 30 0"
+                        Text="Номер" />
+                    <TextBox x:Name="PhoneNumberText"
+                             MinWidth="120"
+                             />
+                </StackPanel>
+
+                <StackPanel
+                    Margin="0 5 0 10"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Top" >
+                    <TextBlock
+                        Margin="0 0 47 0"
+                        Text="Код" />
+                    <TextBox x:Name="CodeNumberText"
+                             MinWidth="120"/>
+                </StackPanel>
+
+                <StackPanel
+                    Margin="0 5 0 10"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Top" >
+                    <TextBlock
+                        Margin="0 0 16 0"
+                        Text="API HASH" />
+                    <TextBox x:Name="APIHashText"
+                             MinWidth="120"/>
+                </StackPanel>
+
+                <StackPanel
+                    Margin="0 5 0 10"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Top" >
+                    <TextBlock
+                        Margin="0 0 35 0"
+                        Text="API ID" />
+                    <TextBox x:Name="APIIDText"
+                             MinWidth="120"/>
+                </StackPanel>
+                <Button Content="Поехали!" Click="Start_Click" />
+
+                <StackPanel Margin="0 20 0 0" Orientation="Horizontal">
+                    <TextBlock Text="Сообщений" Margin="0 0 10 0"/>
+                    <TextBlock x:Name="MessagesCountText" Text="{Binding MessageCount}"/>
+                </StackPanel>
+                <StackPanel Margin="0 20 0 0" Orientation="Horizontal">
+                    <TextBlock Text="Чатов" Margin="0 0 10 0"/>
+                    <TextBlock x:Name="ChatsText"/>
+                </StackPanel>
+            </StackPanel>
+
+        </Border>
+    </Grid>
+</Window>
